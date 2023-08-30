@@ -1,0 +1,74 @@
+body,
+html {
+  height: 100%;
+}
+body {
+  background-color: rgb(33, 34, 44);
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.formulario {
+  border-radius: 5px;
+  width: 540px;
+  height: 100%;
+  padding: 5px;
+  background-color: rgb(217, 220, 221);
+  text-align: center;
+}
+.titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario input[type="email"] {
+  border-radius: 10px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 10;
+  width: 220px;
+
+  margin-top: 30px;
+  margin-left: 5px;
+  padding: 16px 10px;
+}
+.formulario input[type="text"]:focus,
+.formulario input[type="password"]:focus,
+.formulario input[type="email"]:focus {
+  width: 250px;
+}
+.formulario button[type="submit"] {
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+  background: linear-gradient(to right, rgb(12, 180, 110), rgb(17, 62, 146));
+  cursor: pointer;
+  border-color: black;
+  border-radius: 9px;
+  width: 210px;
+
+  margin-top: 40px;
+  padding: 14px 10px;
+}
+
+.formulario button[type="submit"]:hover {
+  background: linear-gradient(to right, rgb(11, 124, 77), rgb(12, 44, 104));
+}
+p a {
+  color: rgb(12, 180, 110);
+  font-weight: bold;
+  text-decoration: none;
+}
+p a:hover {
+  color: rgb(20, 202, 126);
+}
