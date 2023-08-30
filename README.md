@@ -11,4 +11,4 @@
 Tecnico Profesional en Programacion Web  
 Semestre II  
 Barranquilla, Atlantico  
-Octubre 2023**
+Octubre 2022**
